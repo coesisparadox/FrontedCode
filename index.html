@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Share Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"> -->
+</head>
+<body>
+    <!-- <h2>Learn Knowledge And Share Your Notes </h2> -->
+
+
+    <div class="navbar">
+        <ul>
+            <li class="home"><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>Faculty</a>
+                <div class="subnavbaar">
+                    <ul>
+                        <li><a href="#">BEI</a></li>
+                        <li><a href="#">BCT</a></li>
+                        <li><a href="#">BCE</a></li>
+                        <li><a href="#">CSIT</a></li>
+                    </ul>
+                </div>
+            </li>
+            
+            <li><a href="aboutus.html"><i class="fa-solid fa-user"></i>About US</a></li>
+            <li><a href="signin.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>SignUP</a></li>
+            <li><a href="login.html"><i class="fa-solid fa-user"></i>Login</a></li>
+        </ul>
+    </div>
+
+        <h2 id="head">Learn And Share Knowledge </h2>
+
+      <form class="search_form">
+        <div class="searchbar">
+            <input type="text" placeholder="Search.." class="search">
+        </div>
+        <div class="dropdown">
+            <select class="drop" placeholder="Faculty"> 
+                <option  class="input_search">Faculty</option>
+                <option value="search"class="input_search">BEI</option>
+                <option value="search"class="input_search">BCT</option>
+                <option value="search"class="input_search">BCE</option>
+                <option value="search"class="input_search">CSIT</option>
+            </select>
+        </div>
+      </form>
+</body>
+</html>

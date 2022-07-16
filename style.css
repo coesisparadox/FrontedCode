@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    /* background-image: url(background1.jpg); */
+    /* background-image: url(image1.jpg); */
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    /* background: rgb(0, 100, 0); */
+    background: rgb(3, 15, 192);
+
+    text-align: center;
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.navbar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home, .navbar ul li:hover 
+{
+    /* background: #2bab0d; */
+    background: #160670;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navbar .fa-solid{
+   margin-right: 7px;
+}
+
+.subnavbaar{
+    display: none;
+}
+
+.navbar ul li:hover .subnavbaar{
+    display: block;
+    position: absolute;
+    /* background: #2bab0d; */
+    /* background: rgb(0, 100, 0); */
+    background: #160670;
+    /* background: #fff; */
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.navbar ul li:hover .subnavbaar ul{
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .subnavbaar ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar ul li:hover .subnavbaar li:last-child{
+border-bottom: none;
+
+}
+
+.navbar ul li:hover .subnavbaar ul li a:hover{
+
+ /* color: blue; */
+ /* color: #160670; */
+ color: grey;
+ /* color: #b2ff00; */
+}
+
+#head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.search_form{
+    display: flex; 
+    justify-content: center;
+}
+
+
+.search{
+    font-size:18px;
+    padding: 5px 18px;
+    border-radius: 8px;
+   
+}
+
+.searchbar{
+  
+    font-family: sans-serif;
+    /* padding: 6px 166px;
+    margin: 60px 360px; */
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.drop{
+    margin-top: 10px;
+    display: flex;
+    padding: 7px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(3, 15, 192);
+    color: #fff;
+    font-size: 15px;
+    
+}
+#head{
+    margin-top:250px;
+}
+
+.drop:hover{
+    background-color: #160670;
+}
+
+.input_search:hover{
+
+    cursor: pointer;
+}
+
